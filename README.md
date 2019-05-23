@@ -95,3 +95,9 @@ hd <test-file.original> | head -4
   against missing tailing rows, as no metadata is stored regarding the
   total row count.
 
+## Related work
+
+This work was mainly inspired by David Shaws [Paperkey](https://www.jabberwocky.com/software/paperkey/)
+along the same line of thought; I just wanted to have a more generic,
+end-to-end solution.
+
